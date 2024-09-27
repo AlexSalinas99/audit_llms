@@ -46,7 +46,7 @@ The **`data`** folder includes the following files:
 
 * **raw_responses.csv** (forthcoming): All raw responses from all models.
 
-* **cleaned_responses.csv** (forthcoming): All cleaned responses from all models.
+* **cleaned_responses.csv**: All cleaned responses from all models (gpt-4, gpt-4o, mistral-large, llama-3 70B, gpt-3.5, palm-2). Columns are: model, scenario, variation, name_group, name, context_level, prompt_text, response.
 
 ## Notebooks
 
