@@ -79,17 +79,14 @@ The **`notebooks`** folder includes the following files:
         * Software developer
         * Lawyer
  
-3. **cleaning_general.ipynb** :
-   * A Jupyter notebook to automate the extraction of relevant text from the model's responses.
+3. **cleaning.py** :
+   * A script to automate the extraction of relevant text from the model's responses.
    * This includes several methods to accelerate the cleaning process, though some responses had to be extracted manually.
 
 4. **visualization_general.ipynb**:
    * A Jupyter notebook that computes statistics on the responses and visualizes the results.
    * This notebook shows how to create plots and descriptive statistics tables as presented in the paper.
-
-5. **rankings_stereotypes.ipynb** (forthcoming):
-   * A Jupyter notebook that calculates the cosine similarity between the original prompt embeddings and the stereotype prompt embeddings (with a positive/negative stereotype replacing the name)
-   * It performs a Wilcox-sum (Mann-Whitney U) ranking test and a chi-square test.
+     
 
 # 3. Contributing
 We welcome contributions! Please submit issues or pull requests if you have suggestions or improvements.
